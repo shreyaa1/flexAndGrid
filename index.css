@@ -1,0 +1,15 @@
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+li {
+  border: 1px solid #999;
+  margin: 0.5em;
+  padding: 0.5em;
+}
