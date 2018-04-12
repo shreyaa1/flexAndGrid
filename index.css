@@ -5,7 +5,7 @@ ul {
   margin: 0;
   border: 2px solid red;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   height: 200px;
@@ -16,4 +16,9 @@ li {
   border: 1px solid #999;
   margin: 0.5em;
   padding: 0.5em;
+}
+.flex2{
+  order: 2;
+  border: 1px solid blue;
+  flex: 1 0 30%;
 }
