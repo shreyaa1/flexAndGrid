@@ -8,6 +8,8 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  height: 200px;
+  align-items: center;
 
 }
 li {
