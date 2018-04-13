@@ -73,6 +73,14 @@ div img {
   background-color: lightyellow;
   margin-top: 10px;
 }
+.col-5-2{
+  background-color: lightblue;
+  margin-top: 10px;
+}
+.col-5-1{
+  background-color: lightblue;
+  margin-top: 10px;
+}
 
 
 
@@ -95,13 +103,14 @@ div img {
   .col-1-2{
     flex: 0 0 92%;
   }
-/*  .col-3{
+  .col-5-1{
+    flex: 0 0 44%;
+    order: -1;
+  }
+  .col-5-2{
     flex: 0 0 92%;
   }
-  .col-4{
-    flex: 0 0 92%;
-  }
-*/
+
 }
 
 
@@ -130,4 +139,17 @@ div img {
   .col-4 {
     flex: 0 0 92%;
   }
+  .col-5-1{
+    flex: 0 0 20%;
+    order: 0;
+  }
+  .col-5-2{
+    flex: 0 0 44%;
+  }
 }
+
+
+
+
+
+
